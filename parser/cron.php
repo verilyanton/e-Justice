@@ -19,7 +19,7 @@ foreach (array_unique($d) as $i => $doc_id) {
 */
 // $filename = "logs/last-parsed-mo-no.txt";
 // $mo_no = file_get_contents($filename) - 1;
-$dir_local = "data/lex.justice.md/mo-html-raw/";
+$dir_local = "data/monitorul.md/mo-html-raw/";
 $mo_no = 2017;
 if ($mo_no > 0) {
   // file_put_contents($filename, $mo_no);
